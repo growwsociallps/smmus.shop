@@ -583,3 +583,21 @@
         width: 90px;
     }
   }
+.trustpilot-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00B67A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+  } 
+  .trustpilot-button:hover {
+    background: #009e66; /* Darker Green */
+  }
